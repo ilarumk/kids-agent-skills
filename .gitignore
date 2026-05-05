@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if any tooling lands here)
+node_modules/
+npm-debug.log*
+.pnpm-debug.log
+
+# Python (validation scripts may use it)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local artifacts from kid-testing
+artifacts/
+*.local.html
+
+# Env
+.env
+.env.*
