@@ -21,6 +21,14 @@ All five share the same constraints:
 ## Install
 
 ```bash
+npx skills add ilarumk/kids-agent-skills
+```
+
+Or just one skill: `npx skills add ilarumk/kids-agent-skills --skill game-world-builder`. Also listed on [skills.sh](https://skills.sh).
+
+Manual install still works:
+
+```bash
 git clone https://github.com/ilarumk/kids-agent-skills.git
 cp -r kids-agent-skills/skills/game-building/game-world-builder ~/.claude/skills/
 ```
@@ -42,7 +50,7 @@ kids-agent-skills/
 ├── SAFETY.md
 ├── SKILLS_RESEARCH.md       # planning doc, ~4,600 words, cited
 ├── LICENSE
-├── templates/SKILL.md       # canonical format
+├── templates/SKILL.template.md  # canonical format
 ├── shared/age-bands.md      # Sprout / Sapling / Branch contract
 ├── scripts/
 │   ├── new-skill.sh         # scaffolds a new skill folder

@@ -16,7 +16,7 @@ DEST="$ROOT/skills/$1/$2"
 [[ -d "$ROOT/skills/$1" ]] || { echo "Unknown category: $1" >&2; exit 1; }
 
 mkdir -p "$DEST"
-cp "$ROOT/templates/SKILL.md" "$DEST/SKILL.md"
+cp "$ROOT/templates/SKILL.template.md" "$DEST/SKILL.md"
 sed -i.bak "s/skill-name-in-kebab-case/$2/g" "$DEST/SKILL.md" && rm "$DEST/SKILL.md.bak"
 
 echo "Scaffolded: $DEST/SKILL.md"

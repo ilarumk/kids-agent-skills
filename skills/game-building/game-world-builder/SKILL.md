@@ -36,7 +36,7 @@ If they describe a static world without action ("a city with houses and a park")
 
 1. **Echo the idea in one sentence** so the kid hears that they were heard.
    *"You want a CITY with GARBAGE TRUCKS, a FIRE TRUCK rescuing people, and a DRONE flying over. Got it!"*
-2. **Pick the age band.** Use any `age` argument; otherwise infer from utterance length and vocabulary (see `shared/age-bands.md` at the repo root). Default to Sapling (8–10) when uncertain.
+2. **Pick the age band.** Use any `age` argument; otherwise infer from utterance length and vocabulary (see `age-bands.md` in this skill folder). Default to Sapling (8–10) when uncertain.
 3. **Extract entities and pick a primitive.**
 
    | Verbs the kid used | Primitive | Default behavior |
