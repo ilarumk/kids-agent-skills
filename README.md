@@ -37,7 +37,7 @@ Restart Claude Desktop or Claude Code. Hand the device to your kid, turn on voic
 
 ## Why this exists
 
-Across the major Claude Skills aggregators (Anthropic's official repo, addyosmani/agent-skills, obra/superpowers, VoltAgent, and 1,000+ third-party listings), **zero are aimed at kids**.
+Very few agent skills are built for kids. A search of [skills.sh](https://skills.sh) in October 2026 turned up a handful (a Minecraft modding helper, a kids learning creator, a children's story generator), each with fewer than 10 installs. None of them is a voice-first set that turns a kid's spoken idea into something they can play, read or print.
 
 A skill packages the line of context a kid can't supply — *"build this as an HTML5 2D arcade game so it runs in the browser"* — so the model applies it every time without anyone having to remember it. Full reasoning, citations, and the broader 18-skill plan: [`SKILLS_RESEARCH.md`](./SKILLS_RESEARCH.md).
 
